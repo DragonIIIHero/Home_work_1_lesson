@@ -20,6 +20,7 @@ while hours >= 24:
     days = days + 1
     if hours < 24:
         break
+
 while True:
     if month == 1 and days >= 28 and age != ((age % 4) - 1):
         days = days - 28
